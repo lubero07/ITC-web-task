@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    ITC
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="about">
+
+  <nav>
+    <img src="finallogo.png" alt="ITC Logo" class="logo">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="events.html">Events</a>
+    <a href="teamx.html">Team</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  
+
+  
+
+  <section class="contact-section">
+
+  <h1 class="sty-con">Contact Us</h1>
+  <p class="styled-contact">Have questions or ideas? Reach out to us!</p>
+
+  <form class="contact-form">
+
+    <input type="text" placeholder="Your Name" color="black" required>
+
+    <input type="email" placeholder="Your Email" required>
+
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+  </form>
+
+</section>
+<script>
+document.querySelector(".contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Message sent successfully!");
+});
+</script>
+
+</body>
+</html>
